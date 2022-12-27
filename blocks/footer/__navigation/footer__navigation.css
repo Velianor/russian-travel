@@ -1,0 +1,15 @@
+.footer__navigation {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 18px;
+}
+
+@media (max-width: 425px) {
+    .footer__navigation {
+        flex-direction: column;
+        align-content: flex-start;
+        gap: 32px;
+    }
+}

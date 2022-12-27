@@ -2,17 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 48px 48px 48px;
+    margin: 28px auto 48px;
+    box-sizing: border-box;
+    max-width: calc(100% - 96px); 
+
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768) {
     .header{
-    padding: 28px 24px 48px 24px;
+    max-width: calc(100% - 48px);
+    margin: 28px auto 48px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media  (max-width: 320px) {
     .header{
-    padding: 16px 16px 48px 16px;
+    max-width: calc(100% - 32px);
+    margin: 16px auto 48px;
     }
 }
