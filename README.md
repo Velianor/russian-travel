@@ -1,7 +1,7 @@
 # Проект: Путешествие по России
 
 ## Сайт проекта
-https://velianor.github.io/russian-travel/index.html
+https://velianor.github.io/russian-travel/
 
 ### О проекте
 Данный проект верстался по макету в Figma.   
