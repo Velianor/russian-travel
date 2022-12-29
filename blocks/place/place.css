@@ -22,14 +22,6 @@
     
 }
 
-@media (max-width: 768px) {
-    .place {
-        grid-template-columns: minmax(330px, 340px) minmax(332px, 352px);
-        grid-gap: 48px 28px;
-    }
-    
-}
-
 @media (max-width: 694px) {
     .place {
         grid-template-columns: 1fr;
@@ -38,10 +30,3 @@
     
 }
 
-@media (max-width: 425px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-gap: 32px 0;
-    }
-    
-}

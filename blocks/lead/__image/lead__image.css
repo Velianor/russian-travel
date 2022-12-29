@@ -2,6 +2,7 @@
    max-height: 615px;
    max-width: 984px;
    margin: 0 auto 8px;
+   display: block;
 }
 
 @media (max-width: 1024px) {
@@ -32,8 +33,3 @@
     }
 }
 
-@media (max-width: 320px) {
-    .lead__image {
-        max-height: 200px;
-    }
-}
