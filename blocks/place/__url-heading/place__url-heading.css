@@ -7,3 +7,9 @@
     margin: 0 0 12px 0;
     text-transform: uppercase;
 }
+
+@media (max-width: 425px) {
+    .place__url-heading {
+        line-height: 12px;
+        }
+}
